@@ -1,0 +1,307 @@
+.judul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px white ;
+    font-size: 50px;
+    animation: gerak 3s ease-in-out infinite;
+}
+
+
+.judul {
+    animation: floating 3s ease-in-out infinite;
+    transition: 0.3s;
+}
+
+.judul:hover {
+    filter: drop-shadow(0 0 15px #F97316);
+    transform: scale(1.05);
+}
+
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-15px) scale(1.03);
+    }
+}
+
+.hiasan-1{
+    color: blue;
+}
+
+.container-1{
+    justify-content: center;
+    display: flex;
+    margin: 100px;
+}
+
+.container-1{
+    position: relative;
+    right: 320px;
+    bottom: 50px;
+}
+
+.gambar{
+    width: 300px;
+    border-radius: 999px;
+}
+.container-2{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    right: 400px;
+}
+
+.gambar{
+    box-shadow: 12px 12px 12px ;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 280px;
+}
+
+.link-1{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.container-3{
+    background-color: chartreuse;
+    margin-top: 200px;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar{
+    background-color: chartreuse;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #2563EB, #22D3EE);
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.link-1{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black ;
+}
+
+.judul-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hiasan-2{
+    color: blue;
+    font-size: 45px;
+}
+.hiasan-3{
+    font-size: 30px;
+}
+.container-4{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container-4{
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.html-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    width: 100px;
+    background: linear-gradient(90deg, #F97316, #E34F26);
+    border-radius: 12px;
+    border: 0px;
+    color:white;
+    text-shadow: 2px 2px 2px black ;
+}
+.container-5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 550px;
+    left: 125px;
+
+    
+}
+
+.judul-2{
+    animation: gerak-2 2s ease-in-out infinite;
+}
+
+@keyframes gerak-2{
+    0%{
+        transform: translate(0) scale(1);
+    }
+    50%{
+        transform: translateY(-3px) scale(1.1);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
+}
+
+.html-1{
+    transition: 0.3s;
+    font-size: 20px;
+    padding: 20px
+
+}
+
+.html-1:hover{
+    scale: 1.4;
+    box-shadow: 0 0 20px #F97316  ;
+}
+
+.html-1{
+    box-shadow: 0 0 20px #F97316;
+    animation: gerak-4 2s infinite alternate;
+}
+
+@keyframes gerak-4{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-30px);
+    }
+}
+
+.css-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 12px;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: #A855F7;
+    text-shadow: 2px 2px 2px black ;
+    border-radius: 12px ;
+    border: #A855F7;
+}
+
+.css-1{
+    position: absolute;
+    top: 0;
+    left: 70%;
+    margin-top: 200px;
+    margin-left: -30px;
+}
+
+.css-1{
+    animation: iya 3s ease-in-out alternate;
+}
+
+.css-1 {
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #264DE4, #60A5FA);
+    padding: 20px 35px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 0 20px #2965F1;
+
+    animation: iya 3s ease-in-out infinite;
+}
+
+@keyframes iya {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.css-1{
+    transition: 0.3s;
+}
+
+.css-1:hover{
+    box-shadow: 0 0 20px blue ;
+    scale: 1.4;
+}
+
+.js{
+    padding: 12px;
+    width: 120px;
+    font-family: Verdana, Genevsa, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: gold;
+    color: white;
+    text-shadow: 2px 2px 2px black ;
+    font-size: 30px;
+    border: gold;
+    box-shadow: 0 0 20px gold;
+    border-radius: 12px;
+}
+
+.js{
+    position: absolute;
+    top: 0;
+    left: 70%;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.html-1{
+    position: relative;
+    bottom: 120px;
+    
+}
+
+.js{
+    animation: suki 2s ease-in-out infinite;
+}
+
+@keyframes suki{
+    0%{
+        transform: translate(0) scale(1);
+    }
+    50%{
+        transform: translateY(-3px) scale(1.1);
+    }
+    100%{
+        transform: translate(0) scale(1);
+    }
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        #F1F5FF,
+        #E0F2FE
+    );
+
+    color: #111827;
+    font-family: Arial, sans-serif;
+}
